@@ -1,0 +1,144 @@
+body {
+  width: 1200px;
+  margin: auto;
+  font-family:  'Montserrat', sans-serif;
+}
+h1, h3, h4 {
+  color: black;
+  text-transform: uppercase;
+}
+
+/***** HEADER *****/
+header {
+  border-bottom: 3px solid #77a466;
+  height: 110px;
+	margin: 0 auto;
+}
+header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  float: left;
+}
+header h1 span {
+  color: #77a477;
+}
+header nav {
+  float: right;
+  padding: 30px 0;
+}
+header nav li {
+  display:inline-block;
+}
+header nav li a {
+  text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 0 10px;
+	color:#77a466;
+}
+
+/***** TOP-SECTION *****/
+
+.welcome-img {
+  width: 1200px;
+	height: auto;
+	float: left;
+}
+.welcome-img img {
+  border-bottom: 3px solid #77a466;
+}
+.welcome-message {
+  width: 1200px;
+  height: auto;
+  float: left;
+}
+  .welcome-message h3 {
+    color: #77a466;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 5px 0;
+    text-align: left;
+}
+.welcome-message p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/***** SECTION-ONE *****/
+.section-one h4 {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  padding: 10px 0;
+}
+.section-one ul {
+  list-style: none;
+	padding: 0px;
+}
+.section-one ul li {
+  color: #77a466;
+  padding: 10px 0;
+}
+
+/***** SECTION-TWO *****/
+.section-two h4 {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  padding: 10px 30px 10px 30px;
+}
+.section-two p {
+  font-size: 16px;
+  line-height: 21px;
+  padding: 0 30px 0 30px;
+}
+
+/***** section-three *****/
+.section-three h4 {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  padding: 10px 30px 10px 30px;
+}
+.section-three p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px 30px 0px 30px;
+}
+/***** WIDTHS  *****/
+.section-one,
+.section-two,
+.section-three {
+	width: 399px;
+  height: auto;
+	float: left;
+  border-top: 1px solid #eee;
+}
+.section-one,
+.section-two {
+	border-right: 1px solid #eee;
+}
+.top-section,
+.bottom-section {
+  clear: both;
+}
+/***** FOOTER *****/
+footer {
+  font-size: 12px;
+  text-align: center;
+  border-top: 3px solid #eee;
+  width: 1200PX;
+	height: 50px;
+	margin: 0 auto;
+  clear: both;
+}
+
+footer span {
+	font-family: "Wisdom Script", script;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
